@@ -94,11 +94,7 @@
   padding: 4rem;
 }
 
-/* .hero img {
-  width: 90%;
-  padding-top: 2rem;
-  border-radius: 50%;
-} */
+
 .btn-secondary:hover {
   background: transparent;
   border-color: cyan;
@@ -677,7 +673,7 @@ footer .copyright {
   .header1 {
     width: 100vw;
   }
-  .hero img {
+  .hero .hero-img-border img {
     display: none;
   }
   .about {
@@ -748,17 +744,6 @@ footer .copyright {
   }
 }
 
-/* .hero-img-border{
-  border: 10px solid white;
-  width: 310px;
-  border-radius:50%
-}
-
-.hero-img-border-2{
-  border: 10px solid white;
-  width: 200px;
-  border-radius:50%
-} */
 
 
 .hero-img-border{
