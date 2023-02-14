@@ -673,7 +673,13 @@ footer .copyright {
   .header1 {
     width: 100vw;
   }
-  .hero.hero-img-border img {
+  .hero .hero-img-border::before{
+    display: none;
+  }
+  .hero .hero-img-border img {
+    display: none;
+  }
+  .hero .hero-img-border::after{
     display: none;
   }
   .about {
@@ -745,12 +751,6 @@ footer .copyright {
     height:157vh;
   } */
 }
-@media only screen and (max-width: 1024px) {
-  body section {
-    overflow: hidden;
-  }
-}
-
 
 
 .hero-img-border{
@@ -809,5 +809,14 @@ footer .copyright {
   }
   100%{
     transform: rotate(-360deg)
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  body section {
+    overflow: hidden;
+  }
+  .container{
+    flex-direction: column;
   }
 }
