@@ -542,7 +542,7 @@ footer {
   background: black;
   text-align: center;
   padding: 3rem 0;
-  height: 40vh;
+  /* height: 40vh; */
 }
 footer .footer-logo > span {
   font-size: 2rem;
@@ -683,22 +683,35 @@ footer .copyright {
     display: none;
   }
   .about {
-    flex-direction: column-reverse;
+    flex-direction: column;
     width: auto !important;
   }
+  .aboutImg img{
+    width: 276px;
+    top: 12%;
+  }
+  .image-border{
+    width: 290px;
+    height: 380px;
+  }
+  .image-border-2{
+    width: 309px;
+    height: 399px;
+  }
+  
   .container{
-    height: 96vh;
+    height: 85vh;
   }
 
   .aboutContent {
-    padding: 0 20px;
+    padding: 40px 20px;
   }
 
   .content {
-    padding: 3rem;
+    padding: 4rem;
   }
   .content h6 {
-    font-size: 34px;
+    font-size: 31px;
     margin-bottom: 1.5rem;
   }
   .about h1 {
@@ -709,10 +722,20 @@ footer .copyright {
   } */
   .about .social {
     margin-left: 14px;
+    margin-top: 80px;
   }
   .aboutImg {
-    padding: 3rem;
-    margin-top: 81px;
+    padding: 4rem;
+    /* margin-top: 81px; */
+  }
+  .about h3{
+    font-size:31px;
+  }
+  section.work{
+    margin-top: 50px;
+  }
+  .skills_section {
+    margin-top: 80px;
   }
   section.freelancer {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 80%, 0 100%);
@@ -720,7 +743,9 @@ footer .copyright {
   section.work .card-wrapper {
     grid-template-columns: repeat(1, 1fr);
   }
-
+ .contact{
+  margin-top:80px;
+ }
   .section-heading {
     font-size: 3rem;
   }
@@ -747,9 +772,7 @@ footer .copyright {
   .about .social a img {
     width: 65%;
   }
-  /* .skills_section{
-    height:157vh;
-  } */
+ 
 }
 
 
