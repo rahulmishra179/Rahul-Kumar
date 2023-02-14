@@ -673,7 +673,7 @@ footer .copyright {
   .header1 {
     width: 100vw;
   }
-  .hero .hero-img-border img {
+  .hero.hero-img-border img {
     display: none;
   }
   .about {
