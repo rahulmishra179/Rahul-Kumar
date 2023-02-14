@@ -687,16 +687,16 @@ footer .copyright {
     width: auto !important;
   }
   .aboutImg img{
-    width: 276px;
-    top: 12%;
+    width: 253px;
+    top: 10%;
   }
   .image-border{
-    width: 290px;
-    height: 380px;
+    width: 260px;
+    height: 356px;
   }
   .image-border-2{
-    width: 309px;
-    height: 399px;
+    width: 278px;
+    height: 374px;
   }
   
   .container{
@@ -711,7 +711,7 @@ footer .copyright {
     padding: 4rem;
   }
   .content h6 {
-    font-size: 31px;
+    font-size: 28px;
     margin-bottom: 1.5rem;
   }
   .about h1 {
@@ -729,7 +729,7 @@ footer .copyright {
     /* margin-top: 81px; */
   }
   .about h3{
-    font-size:31px;
+    font-size:29px;
   }
   section.work{
     margin-top: 50px;
