@@ -708,10 +708,10 @@ footer .copyright {
   }
 
   .content {
-    padding: 4rem;
+    padding: 50px;
   }
   .content h6 {
-    font-size: 28px;
+    font-size: 30px;
     margin-bottom: 1.5rem;
   }
   .about h1 {
@@ -725,11 +725,12 @@ footer .copyright {
     margin-top: 80px;
   }
   .aboutImg {
-    padding: 4rem;
+    padding: 90px;
     /* margin-top: 81px; */
   }
   .about h3{
     font-size:29px;
+    margin-left: 20px;
   }
   section.work{
     margin-top: 50px;
@@ -747,7 +748,7 @@ footer .copyright {
   margin-top:80px;
  }
   .section-heading {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .skills_head h2 {
     font-size: 3rem;
