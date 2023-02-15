@@ -670,6 +670,66 @@ footer .copyright {
   body section {
     overflow: hidden!important;
   }
+
+/* Last modified */
+.aboutImg{
+  padding-left: 0px;
+  padding-top: 0px;
+}
+
+
+.aboutImg{
+  margin-top:3rem;
+  padding: 0 !important;
+}
+.image-border-2{
+  margin: 0 auto;
+}
+
+.aboutContent >*{
+  margin:1rem auto !important;
+  text-align: center;
+}
+
+.social{
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-evenly;
+
+}
+.skills_section{
+  height: 100vh;
+}
+
+section.contact .card-wrapper{
+  display: flex !important;
+  flex-direction: column !important;
+  word-wrap: break-word !important;
+}
+section.contact .card-wrapper .card img {
+  margin: 0 !important;
+  padding: 0 !important
+}
+section.contact .card-wrapper .card h6{
+  margin-bottom: 1rem;
+}
+section.contact  form{
+  margin-top: 3rem !important;
+}
+footer .footer-logo > span {
+  font-size:1.5rem;
+}
+.about{
+  padding-bottom: 0;
+}
+.social a{
+  width: 2rem !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 2rem !important;
+}
+
+
   .header1 {
     width: 100vw;
   }
@@ -708,7 +768,7 @@ footer .copyright {
   }
 
   .content {
-    padding: 50px;
+    padding: 30px;
   }
   .content h6 {
     font-size: 30px;
